@@ -1,4 +1,9 @@
-resume:
-  age:20
-  name:aoho
-  sex:male
+ResumeInformation:
+  Name: "aoho"
+  Sex:  "male"
+  Age: 20
+  Habits:
+    - "Basketball"
+    - "Running"
+RegisterTime: "2021-12-21 10:10:10"
+Address: "Shanghai"
