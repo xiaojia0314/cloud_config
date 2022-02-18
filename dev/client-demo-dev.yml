@@ -2,3 +2,18 @@ resume:
   age:20
   name:aoho
   sex:male
+
+server:
+  port:8801
+spring:
+  application:
+    name: configserver
+
+---
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri:https://github.com/xiaojia0314/spring_cloud_config_repo.git
+          searchPaths: ${APP_LOCATE:dev}
