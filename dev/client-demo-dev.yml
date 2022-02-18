@@ -15,5 +15,5 @@ spring:
     config:
       server:
         git:
-          uri:https://github.com/xiaojia0314/spring_cloud_config_repo.git
+          uri:https://github.com/xiaojia0314/cloud_config.git
           searchPaths: ${APP_LOCATE:dev}
